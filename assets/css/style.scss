@@ -1,11 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
 $sans-serif: 'Noto Sans KR';
 $monospace: 'Ubuntu Mono';
 $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 
 @charset "utf-8";
-@import "minimal-mistakes/skins/aqua"; // skin
-@import "minimal-mistakes";
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
 
