@@ -1,37 +1,74 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/unbap/unbap.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## ¾ğ¹ä(UNBAP) ¼Ò°³
+### **¾ğ¹äÇÏ´Ù** \[¾ğ:¹äÇÏ´Ù\] 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1. **µ¿»ç**  ÄÚµùÀ» ÂûÁö°Ô ÀßÇÏ´Ù
+2. **µ¿»ç**  ¾ÆÀÌµğ¾î°¡ ÂËÂËÇØ µû¶ó¿ÃÀÚ°¡ ¾ø´Ù
 
-### Markdown
+ **¾ğ¹ä**Àº ÇÑµ¿´ëÇĞ±³ 20ÇĞ¹ø ÄÄÇ»ÅÍ°øÇĞ½ÉÈ­ Àü°ø 6¸íÀ¸·Î ±¸¼ºµÈ ÆÀÀ¸·Î½á ÇÁ·ÎÁ§Æ®¸¦ ¹ÙÅÁÀ¸·Î ÀÌ·ĞÀû Áö½ÄÀ» ÅºÅºÈ÷ ´ÙÁö°í ½Ç¹« ´É·Â ÁõÁøÀ» ÀÌ·ç´Â °ÍÀ» ¸ñÀûÀ¸·Î ÇÏ°í ÀÖ½À´Ï´Ù. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### ÀúÈñ ¾ğ¹ä¿¡¼­ ÁøÇàÇÏ´Â ÇÁ·ÎÁ§Æ®´Â ´ÙÀ½°ú °°½À´Ï´Ù.
+**1. ¾ğ¹ä È¨ÆäÀÌÁö À¥ ±¸Ãà (2020. 02. 22 - )**
+  - Âü¿© ¸â¹ö : À¯Á¤¼·, Àü¼Ò¸í, ÃÖÇı¸², È«¼®Âù
 
-```markdown
-Syntax highlighted code block
+# ¸â¹ö ¼³¸í
 
-# Header 1
-## Header 2
-### Header 3
+### ¼º¸í : À¯Á¤¼·
 
-- Bulleted
-- List
+¼º³â¿ùÀÏ : 2000.02.10.
 
-1. Numbered
-2. List
+ÀÌ¸ŞÀÏ :
 
-**Bold** and _Italic_ and `Code` text
+ÇĞ·Â : ÇÑµ¿´ë ÄÄÇ»ÅÍ°øÇĞ½ÉÈ­
 
-[Link](url) and ![Image](src)
-```
+¾à·Â : SW Æä½ºÆ¼¹ú 1ÇĞ³â ÀÚÀÛ ¼ÒÇÁÆ®¿ş¾î ºÎ¹® ´ë»ó
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+1ÇĞ³â C ÇÁ·Î±×·¡¹Ö ÄÁÅ×½ºÆ® ºÎ¹® ÃÖ¿ì¼ö»ó
 
-### Jekyll Themes
+  
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/unbap/unbap.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### ¼º¸í : ÀÓÁ¤Çö
 
-### Support or Contact
+»ı³â¿ùÀÏ : 2001.03.09.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and weâ€™ll help you sort it out.
+ÀÌ¸ŞÀÏ : 22000770@handong.edu
+
+ÇĞ·Â : ÇÑµ¿´ë ÄÄÇ»ÅÍ°øÇĞ½ÉÈ­
+
+¾à·Â :
+
+  
+
+### ¼º¸í : ÃÖÇı¸²
+
+»ı³â¿ùÀÏ : 2001.08.30.
+
+ÀÌ¸ŞÀÏ : 22000770@handong.edu
+
+ÇĞ·Â : ÇÑµ¿´ë ÄÄÇ»ÅÍ°øÇĞ½ÉÈ­
+
+¾à·Â : SW Æä½ºÆ¼¹ú 1ÇĞ³â ÀÚÀÛ ¼ÒÇÁÆ®¿ş¾î ºÎ¹® ÃÖ¿ì¼ö»ó
+
+1ÇĞ³â C ÇÁ·Î±×·¡¹Ö ÄÁÅ×½ºÆ® ºÎ¹® Àå·Á»ó
+
+### ¼º¸í : Àü¼Ò¸í
+
+»ı³â¿ùÀÏ : 2001.10.17.
+
+ÀÌ¸ŞÀÏ : 22000646@handong.edu
+
+ÇĞ·Â : ÇÑµ¿´ë ÄÄÇ»ÅÍ°øÇĞ½ÉÈ­
+
+¾à·Â : SW Æä½ºÆ¼¹ú 1ÇĞ³â ÀÚÀÛ ¼ÒÇÁÆ®¿ş¾î ºÎ¹® ÃÖ¿ì¼ö»ó
+
+1ÇĞ³â C ÇÁ·Î±×·¡¹Ö ÄÁÅ×½ºÆ® ºÎ¹® ÃÖ¿ì¼ö»ó
+
+### ¼º¸í : Á¤ÁÖ¿µ
+
+»ı³â¿ùÀÏ : 2001.11.04.
+
+ÀÌ¸ŞÀÏ : 22000694@handong.edu
+
+ÇĞ·Â : ÇÑµ¿´ë ÄÄÇ»ÅÍ°øÇĞ½ÉÈ­
+
+¾à·Â : SW Æä½ºÆ¼¹ú 1ÇĞ³â ÀÚÀÛ ¼ÒÇÁÆ®¿ş¾î ºÎ¹® ´ë»ó
