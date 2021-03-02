@@ -4,4 +4,4 @@ relative_links:
   enabled: true
   collections: true
 
-theme: jekyll-theme-architect
+remote_theme: junglesub/architect
