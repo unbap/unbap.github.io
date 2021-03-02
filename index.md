@@ -2,6 +2,8 @@
 title: UNBAP
 ---
 
+![Group Photo](unbap.jpeg)
+
 # UNBAP
 
 ## 언밥(UNBAP) 소개
