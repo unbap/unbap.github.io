@@ -2,7 +2,7 @@
 title: UNBAP
 ---
 
-![Group Photo](unbap.jpeg)
+![Group Photo](UNBAP_COMETHRU.png)
 
 # UNBAP
 
