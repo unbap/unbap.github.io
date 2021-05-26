@@ -10,6 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
       rel="stylesheet"
     />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <link href="index.css" rel="stylesheet" />
 
     <title>UNBAP</title>
@@ -21,20 +27,58 @@
     <div class="part-3 teamproject">
       <div id="project-1" class="project">
         <div class="project-photo">Photo goes here</div>
-        <div class="project-desc">Description Goes here</div>
+        <div class="project-desc">
+          <div class="out">Cover (마우스 out)</div>
+          <div class="over">내용</div>
+        </div>
       </div>
       <div id="project-2" class="project">
         <div class="project-photo">Photo goes here</div>
-        <div class="project-desc">Description Goes here</div>
+        <div class="project-desc">
+          <div class="out">Cover (마우스 out)</div>
+          <div class="over">내용</div>
+        </div>
       </div>
-      <div id="project-2" class="project">
+      <div id="project-3" class="project">
         <div class="project-photo">Photo goes here</div>
-        <div class="project-desc">Description Goes here</div>
+        <div class="project-desc">
+          <div class="out">Cover (마우스 out)</div>
+          <div class="over">내용</div>
+        </div>
       </div>
-      <div id="project-2" class="project">
+      <div id="project-4" class="project">
         <div class="project-photo">Photo goes here</div>
-        <div class="project-desc">Description Goes here</div>
+        <div class="project-desc">
+          <div class="out">Cover (마우스 out)</div>
+          <div class="over">내용</div>
+        </div>
       </div>
     </div>
+    <script>
+      function mouseIn(e) {
+        console.log("Mouse Over!");
+        console.log($(e.target).parent().find(".out"));
+        $(e.target).parent().find(".out").hide(); // fadeOut();
+        $(e.target).parent().find(".over").show(); // fadeIn();
+      }
+      function mouseOut(e) {
+        $(e.target).parent().find(".over").hide();
+        $(e.target).parent().find(".out").show();
+      }
+      $(".project").mouseenter(mouseIn);
+      $(".project").mouseleave(mouseOut);
+
+      // console.log($(".project"));
+      // document.querySelectorAll(".project").forEach((elem) => {
+      //   console.log(elem);
+      //   elem.addEventListener("mouseover", mouseIn);
+      //   elem.addEventListener("mouseout", mouseOut);
+      // });
+      // document.querySelectorAll(".project *").forEach((elem) => {
+      //   console.log(elem);
+      //   elem.addEventListener("mouseover", (e) => e.stopPropagation());
+      //   elem.addEventListener("mouseout", (e) => e.stopPropagation());
+      // });
+    </script>
   </body>
 </html>
