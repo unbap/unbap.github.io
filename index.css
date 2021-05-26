@@ -40,3 +40,13 @@ body {
 .over {
   display: none;
 }
+
+.names {
+  position: absolute;
+  bottom: 2px;
+}
+
+.out {
+  position: relative;
+  height: 100%;
+}
