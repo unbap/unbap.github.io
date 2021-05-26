@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unbap homepage</title>
     <style>
-        .unbapText{
-            position : relative;
-            left : 50%;
-            top : 50%;
-        }
-        img{
-            max-width: auto;
-            width: 100%; 
-            height: auto;
-            margin-top : 1rem;
-            margin-bottom : 0.5rem;
-            padding-top : 2rem;
-            padding-bottom : 2rem;
-        }
+      #unbapText {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: black;
+        opacity: 1;
+        /* background-color: rgba(255, 255, 255, 0.6); */
+        width: 100%;
+        text-align: center;
+        margin: 0;
+      }
+      #unbapText > * {
+        margin: 0;
+      }
+      img {
+        max-width: auto;
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        opacity: 0.6;
+        /* filter: blur(10px); */
+      }
+      .space {
+        height: 1000px;
+      }
     </style>
-</head>
-<body>
-    <p><img src = "EDIT_UNBAP_COMETHRU.jpg" alt="EDIT_UNBAP_COMETHRU.jpg"></p>
-    <div id = "unbapText"><p>UNBAP</p></div>
-</body>
+  </head>
+  <body>
+    <div class="main-imagex">
+      <img src="EDIT_UNBAP_COMETHRU.jpg" alt="EDIT_UNBAP_COMETHRU.jpg" />
+      <div id="unbapText">
+        <h1>UNBAP</h1>
+        <p>언밥이 짱이다</p>
+      </div>
+    </div>
+  </body>
 </html>
