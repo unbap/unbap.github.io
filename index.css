@@ -31,13 +31,10 @@ body {
 }
 
 .project-desc {
-  /* background: yellow; */
+  background-color: rgb(161, 178, 255); 
   width: 30%;
 }
 
-.over:hover {
-  display: block;
-}
 .over {
   display: none;
 }
