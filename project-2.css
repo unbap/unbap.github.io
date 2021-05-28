@@ -1,131 +1,121 @@
-.project-2 .text {
-  padding-top: 120px;
-  padding-bottom: 20px;
-  text-align: center;
-  text-decoration:overline;
-  /* background-color:#7BC4C4; 
-  color:bisque */
-}
-
-.project-2 .profile {
+.part-2 .profile {
   overflow: hidden;
   display: flex;
   /* padding: 1%; */
   color: white;
-  background-color: #7BC4C4;
+  background-color: #7bc4c4;
   max-width: 535px;
   max-height: 300px;
   float: left;
   margin: 3% 1% 1% 1%;
 }
 
-.project-2 .box {
+.part-2 .box {
   width: 45%;
   height: 100%;
   border-right: 5px solid white;
   /* overflow: hidden; */
   float: left;
-  background-color:aquamarine;
-  margin-right:10%;
+  background-color: aquamarine;
+  margin-right: 10%;
 }
 
-.project-2 .img {
+.part-2 .img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   overflow: hidden;
 }
 
-.project-2 .name{
+.part-2 .name {
   font-size: 40px;
-  text-decoration:none;
+  text-decoration: none;
   text-align: center;
 }
 
-.project-2 .info{
+.part-2 .info {
   font-size: 15px;
 }
 
-.project-2 .ext{
+.part-2 .ext {
   font-size: 20px;
 }
 
-.project-2 .list{
-  color:gray;
+.part-2 .list {
+  color: gray;
 }
 
-.project-2 .gitbox{
+.part-2 .gitbox {
   width: 50px;
   height: 50px;
   overflow: hidden;
   margin-top: 145%;
   margin-right: 4%;
-      
-  float:right;
+
+  float: right;
   border-radius: 70%;
   background-color: red;
 }
 
-.project-2 .github{
-   
+.part-2 .github {
   width: 100%;
   height: 100%;
-      
-  object-fit:fill;
+
+  object-fit: fill;
 }
 
-.project-2 .profile:hover{
+.part-2 .profile:hover {
   /* background-size: contain; */
-  background-color: #B5B5B5;
+  background-color: #b5b5b5;
 }
 
-.project-2 .site{
+.part-2 .site {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
-.project-2 a:visited{
-  color: white; 
+.part-2 a:visited {
+  color: white;
 }
 
-.project-2 .box img {
-  -webkit-transform:scale(1);
-  -moz-transform:scale(1);
-  -ms-transform:scale(1); 
-  -o-transform:scale(1);  
-  transform:scale(1);
-  -webkit-transition:.3s;
-  -moz-transition:.3s;
-  -ms-transition:.3s;
-  -o-transition:.3s;
-  transition:.3s;
+.part-2 .box img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 
-.project-2 .box:hover img {
-  -webkit-transform:scale(1.2);
-  -moz-transform:scale(1.2);
-   -ms-transform:scale(1.2);   
-  -o-transform:scale(1.2);
-  transform:scale(1.2);
+.part-2 .box:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-.project-2 .gitbox img {
-  -webkit-transform:scale(1);
-  -moz-transform:scale(1);
-  -ms-transform:scale(1); 
-  -o-transform:scale(1);  
-  transform:scale(1);
-  -webkit-transition:.3s;
-  -moz-transition:.3s;
-  -ms-transition:.3s;
-  -o-transition:.3s;
-  transition:.3s;
-  }
+.part-2 .gitbox img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
 
-.project-2 .gitbox:hover img {
-  -webkit-transform:scale(1.8);
-  -moz-transform:scale(1.8);
-  -ms-transform:scale(1.8);   
-  -o-transform:scale(1.8);
-  transform:scale(1.8);
+.part-2 .gitbox:hover img {
+  -webkit-transform: scale(1.8);
+  -moz-transform: scale(1.8);
+  -ms-transform: scale(1.8);
+  -o-transform: scale(1.8);
+  transform: scale(1.8);
 }
