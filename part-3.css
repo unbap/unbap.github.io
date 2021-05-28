@@ -9,7 +9,7 @@
 .part-3 .teamproject {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   /* align-content: space-around; */
   flex-wrap: wrap;
 }
