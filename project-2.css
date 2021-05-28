@@ -1,0 +1,121 @@
+.part-2 .profile {
+  overflow: hidden;
+  display: flex;
+  /* padding: 1%; */
+  color: white;
+  background-color: #7bc4c4;
+  max-width: 535px;
+  max-height: 300px;
+  float: left;
+  margin: 3% 1% 1% 1%;
+}
+
+.part-2 .box {
+  width: 45%;
+  height: 100%;
+  border-right: 5px solid white;
+  /* overflow: hidden; */
+  float: left;
+  background-color: aquamarine;
+  margin-right: 10%;
+}
+
+.part-2 .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.part-2 .name {
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.part-2 .info {
+  font-size: 15px;
+}
+
+.part-2 .ext {
+  font-size: 20px;
+}
+
+.part-2 .list {
+  color: gray;
+}
+
+.part-2 .gitbox {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  margin-top: 145%;
+  margin-right: 4%;
+
+  float: right;
+  border-radius: 70%;
+  background-color: red;
+}
+
+.part-2 .github {
+  width: 100%;
+  height: 100%;
+
+  object-fit: fill;
+}
+
+.part-2 .profile:hover {
+  /* background-size: contain; */
+  background-color: #b5b5b5;
+}
+
+.part-2 .site {
+  text-decoration: none;
+  color: white;
+}
+
+.part-2 a:visited {
+  color: white;
+}
+
+.part-2 .box img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.part-2 .box:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.part-2 .gitbox img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.part-2 .gitbox:hover img {
+  -webkit-transform: scale(1.8);
+  -moz-transform: scale(1.8);
+  -ms-transform: scale(1.8);
+  -o-transform: scale(1.8);
+  transform: scale(1.8);
+}
