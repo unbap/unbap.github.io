@@ -37,6 +37,7 @@
 .part-1 .main-imagex {
   position: relative;
   height: var(--image-height);
+  margin-bottom: calc(100vh - var(--image-height));
 }
 .part-1 #unbapText {
   position: absolute;
