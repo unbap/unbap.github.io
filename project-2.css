@@ -6,8 +6,15 @@
   background-color: #7bc4c4;
   max-width: 535px;
   max-height: 300px;
-  float: left;
-  margin: 3% 1% 1% 1%;
+  /* float: left; */
+  margin: 1rem;
+  /* margin: 3% 1% 1% 1%; */
+}
+
+.part-2 .profilelist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .part-2 .box {
