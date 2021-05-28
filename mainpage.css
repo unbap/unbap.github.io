@@ -30,6 +30,9 @@
 }
 .part-1 .textUnbap h2 {
   margin: 0;
+  font-family: "arial", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.2em;
 }
 .part-1 .main-imagex {
   position: relative;
@@ -44,9 +47,8 @@
   height: 100%;
   opacity: 0.8;
   color: white;
-  font-weight: bold;
   /* background-color: white; */
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 /* .part-1 #unbapText {
   position: absolute;
