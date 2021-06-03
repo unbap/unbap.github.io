@@ -1,5 +1,5 @@
 .part-1 {
-  --image-height: 95vh;
+  --image-height: 100vh;
 }
 
 .part-1 .ExplainUnbap {
@@ -50,7 +50,7 @@
   opacity: 0.8;
   color: white;
   /* background-color: white; */
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.3); */
 }
 /* .part-1 #unbapText {
   position: absolute;
