@@ -1,63 +1,196 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="project.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/3851cbb6e1.js"></script>
     <title>Project page</title>
-</head>
-<body>
-    <h1 class="project-name"> 프로젝트 이름 </h1>
+  </head>
+  <body>
+    <div class="project-page">
+      <h1 class="project-name">프로젝트 이름</h1>
 
-    <div class="main-pro">
-        
-        <div class="pro-card-1">
-            <!-- <img src="img/web.jpg" /> -->
-            <div>
-                사진
-            </div>
-            <div>
-                설명
-            </div>
+      <div class="slider_wrapper">
+        <ul class="slides">
+          <li><img src="https://place-hold.it/500x500" alt="" /></li>
+          <li><img src="https://place-hold.it/500x500" alt="" /></li>
+          <li><img src="https://place-hold.it/500x500" alt="" /></li>
+          <!-- <li><img src="https://place-hold.it/500x500" alt="" /></li> -->
+          <!-- <li><img src="https://place-hold.it/500x500" alt="" /></li> -->
+          <!-- <li><img src="https://place-hold.it/500x500" alt="" /></li> -->
+        </ul>
+        <p class="controls">
+          <span id="prev"><i class="fas fa-chevron-left arrow"> </i></span>
+          <span id="next"><i class="fas fa-chevron-right arrow"> </i></span>
+        </p>
+      </div>
+      <div class="lower-desc">
+        <div class="extra-pro">
+          <div class="extra-desc">
+            <h3>Developer: 최혜림 유정섭</h3>
+            <h3>Github:</h3>
+            참여자 // 링크 걸어서 해당 사람 페이지로 넘어가기 제작 기간 앱스토어
+            github gmail
+          </div>
         </div>
-         
-        <div class="pro-card-2">
-            <!-- <img src="img/web.jpg" /> -->
-            <div>
-                사진
-            </div>
-            <div>
-                설명
-            </div>
+        <div class="brief_explain">
+          <p>
+            여기에는 프로젝트를 한눈에 볼 수 있는 짧은 설명을 적을 수 있습니다.
+            너무 길어지지 않 않지만 핵심적인 정보를 볼 수 있는게 중요할 것
+            같습니다!
+          </p>
+          <p>
+            학교교육 및 평생교육을 포함한 교육제도와 그 운영, 교육재정 및 교원의
+            지위에 관한 기본적인 사항은 법률로 정한다. 국회의 정기회는 법률이
+            정하는 바에 의하여 매년 1회 집회되며, 국회의 임시회는 대통령 또는
+            국회재적의원 4분의 1 이상의 요구에 의하여 집회된다.
+          </p>
+          <div class="clicktolearn">클릭하여 자세히 알아보기</div>
         </div>
-         
-        <div class="pro-card-3">
-            <!-- <img src="img/web.jpg" /> -->
-            <div>
-                사진
-            </div>
-            <div>
-                설명
-            </div>
+        <div class="more_explain">
+          <h3>자세히 알아보기</h3>
+          <p>여기에서는 프로젝트에 대해 더 자세한 설명을 할 수 있습니다.</p>
+          <p>
+            국무총리·국무위원 또는 정부위원은 국회나 그 위원회에 출석하여
+            국정처리상황을 보고하거나 의견을 진술하고 질문에 응답할 수 있다.
+            대법원장의 임기는 6년으로 하며, 중임할 수 없다. 지방의회의
+            조직·권한·의원선거와 지방자치단체의 장의 선임방법 기타
+            지방자치단체의 조직과 운영에 관한 사항은 법률로 정한다.
+          </p>
+
+          <p>
+            대통령이 제1항의 기간내에 공포나 재의의 요구를 하지 아니한 때에도 그
+            법률안은 법률로서 확정된다. 연소자의 근로는 특별한 보호를 받는다.
+            국가원로자문회의의 조직·직무범위 기타 필요한 사항은 법률로 정한다.
+            지방자치단체는 주민의 복리에 관한 사무를 처리하고 재산을 관리하며,
+            법령의 범위안에서 자치에 관한 규정을 제정할 수 있다.
+          </p>
+
+          <p>
+            국회는 헌법 또는 법률에 특별한 규정이 없는 한 재적의원 과반수의
+            출석과 출석의원 과반수의 찬성으로 의결한다. 가부동수인 때에는 부결된
+            것으로 본다. 국무총리 또는 행정각부의 장은 소관사무에 관하여
+            법률이나 대통령령의 위임 또는 직권으로 총리령 또는 부령을 발할 수
+            있다. 원장은 국회의 동의를 얻어 대통령이 임명하고, 그 임기는 4년으로
+            하며, 1차에 한하여 중임할 수 있다.
+          </p>
+
+          <p>
+            형사피해자는 법률이 정하는 바에 의하여 당해 사건의 재판절차에서
+            진술할 수 있다. 대통령은 법률이 정하는 바에 의하여 훈장 기타의
+            영전을 수여한다. 국회는 정부의 동의없이 정부가 제출한 지출예산
+            각항의 금액을 증가하거나 새 비목을 설치할 수 없다. 대통령은 제4항과
+            제5항의 규정에 의하여 확정된 법률을 지체없이 공포하여야 한다.
+            제5항에 의하여 법률이 확정된 후 또는 제4항에 의한 확정법률이 정부에
+            이송된 후 5일 이내에 대통령이 공포하지 아니할 때에는 국회의장이 이를
+            공포한다.
+          </p>
+
+          <p>
+            이 헌법공포 당시의 국회의원의 임기는 제1항에 의한 국회의 최초의
+            집회일 전일까지로 한다. 이 헌법시행 당시의 대법원장과 대법원판사가
+            아닌 법관은 제1항 단서의 규정에 불구하고 이 헌법에 의하여 임명된
+            것으로 본다. 국회의 정기회는 법률이 정하는 바에 의하여 매년 1회
+            집회되며, 국회의 임시회는 대통령 또는 국회재적의원 4분의 1 이상의
+            요구에 의하여 집회된다.
+          </p>
+
+          <p>
+            대법관의 임기는 6년으로 하며, 법률이 정하는 바에 의하여 연임할 수
+            있다. 국정감사 및 조사에 관한 절차 기타 필요한 사항은 법률로 정한다.
+            국채를 모집하거나 예산외에 국가의 부담이 될 계약을 체결하려 할
+            때에는 정부는 미리 국회의 의결을 얻어야 한다. 대통령은 조국의 평화적
+            통일을 위한 성실한 의무를 진다.
+          </p>
+
+          <p>
+            모든 국민은 법률이 정하는 바에 의하여 공무담임권을 가진다. 모든
+            국민은 건강하고 쾌적한 환경에서 생활할 권리를 가지며, 국가와 국민은
+            환경보전을 위하여 노력하여야 한다. 국가는 평생교육을 진흥하여야
+            한다. 헌법재판소 재판관은 탄핵 또는 금고 이상의 형의 선고에 의하지
+            아니하고는 파면되지 아니한다.
+          </p>
+
+          <p>
+            국회나 그 위원회의 요구가 있을 때에는 국무총리·국무위원 또는
+            정부위원은 출석·답변하여야 하며, 국무총리 또는 국무위원이 출석요구를
+            받은 때에는 국무위원 또는 정부위원으로 하여금 출석·답변하게 할 수
+            있다. 대한민국은 민주공화국이다. 헌법재판소는 법률에 저촉되지
+            아니하는 범위안에서 심판에 관한 절차, 내부규율과 사무처리에 관한
+            규칙을 제정할 수 있다.
+          </p>
+
+          <p>
+            전직대통령의 신분과 예우에 관하여는 법률로 정한다. 위원은 탄핵 또는
+            금고 이상의 형의 선고에 의하지 아니하고는 파면되지 아니한다. 각급
+            선거관리위원회는 선거인명부의 작성등 선거사무와 국민투표사무에
+            관하여 관계 행정기관에 필요한 지시를 할 수 있다. 국군은 국가의
+            안전보장과 국토방위의 신성한 의무를 수행함을 사명으로 하며, 그
+            정치적 중립성은 준수된다.
+          </p>
+
+          <p>
+            모든 국민은 법 앞에 평등하다. 누구든지 성별·종교 또는 사회적 신분에
+            의하여 정치적·경제적·사회적·문화적 생활의 모든 영역에 있어서 차별을
+            받지 아니한다. 모든 국민의 재산권은 보장된다. 그 내용과 한계는
+            법률로 정한다. 공무원의 직무상 불법행위로 손해를 받은 국민은 법률이
+            정하는 바에 의하여 국가 또는 공공단체에 정당한 배상을 청구할 수
+            있다. 이 경우 공무원 자신의 책임은 면제되지 아니한다.
+          </p>
         </div>
+      </div>
     </div>
-    <div class="extra-pro">
-        <div class="extra-desc">
-            <h3>추가 정보 :
-                참여자 // 링크 걸어서 해당 사람 페이지로 넘어가기  
-                제작 기간  
-                앱스토어  
-                github  
-                gmail  
-            </h3>
-        </div>
-        <div class="back-whole">
-            <h3>
-                전체 페이지로 돌아가기 버튼 
-            </h3>
-        </div>
-    </div>
-    
-</body>
+
+    <script defer>
+      $(".clicktolearn").on("click", () => $(".more_explain").slideDown());
+    </script>
+
+    <script defer>
+      var slideWrap = document.querySelector(".slider_wrapper"),
+        slides = document.querySelector(".slides"),
+        slide = document.querySelectorAll(".slides li"),
+        currentIdx = 0;
+      (slideCount = slide.length),
+        (prevBtn = document.querySelector("#prev")),
+        (slideWidth = 300),
+        (slideMargin = 30),
+        (MoveSlide = slideWidth + slideMargin),
+        (nextBtn = document.querySelector("#next"));
+
+      //slide 배열
+      for (var i = 0; i < slide.length; i++) {
+        slide[i].style.left = slideWidth * i + slideMargin * i + "px";
+      }
+
+      //slide 이동 함수
+      function goToSlide(num) {
+        slides.style.left = -num * MoveSlide + "px";
+        currentIdx = num;
+      }
+
+      // 버튼을 클릭하면 슬라이드 이동시키기
+      nextBtn.addEventListener("click", function () {
+        if (currentIdx < slideCount - 3) {
+          goToSlide(currentIdx + 1);
+        } else {
+          goToSlide(0);
+        }
+      });
+      prevBtn.addEventListener("click", function () {
+        if (currentIdx > 0) {
+          goToSlide(currentIdx - 1);
+        } else {
+          goToSlide(slideCount - 3);
+        }
+      });
+    </script>
+  </body>
 </html>

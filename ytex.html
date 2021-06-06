@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        list-style: none;
+      }
+      .slider_wrapper {
+        width: 960px;
+        margin: 0 auto;
+        position: relative;
+        height: 300px;
+        overflow: hidden;
+      }
+      .slides {
+        position: relative;
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+        transition: left 0.5s ease-in-out;
+        left: 0;
+        transform: translateX(-330px);
+      }
+      .slides li {
+        position: absolute;
+      }
+
+      .controls span {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 2em;
+        cursor: pointer;
+      }
+      .controls #prev {
+        margin-left: -470px;
+      }
+      .controls #next {
+        margin-left: 450px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slider_wrapper">
+      <ul class="slides">
+        <li><img src="https://place-hold.it/300x300" alt="" /></li>
+        <li><img src="https://place-hold.it/300x300" alt="" /></li>
+        <li><img src="https://place-hold.it/300x300" alt="" /></li>
+        <li><img src="https://place-hold.it/300x300" alt="" /></li>
+        <li><img src="https://place-hold.it/300x300" alt="" /></li>
+        <li><img src="https://place-hold.it/300x300" alt="" /></li>
+      </ul>
+      <p class="controls">
+        <span id="prev"><i class="fas fa-chevron-left"> &lt </i></span>
+        <span id="next"><i class="fas fa-chevron-right"> &gt </i></span>
+      </p>
+    </div>
+
+    <script defer>
+      var slideWrap = document.querySelector(".slider_wrapper"),
+        slides = document.querySelector(".slides"),
+        slide = document.querySelectorAll(".slides li"),
+        currentIdx = 0;
+      (slideCount = slide.length),
+        (prevBtn = document.querySelector("#prev")),
+        (slideWidth = 300),
+        (slideMargin = 30),
+        (MoveSlide = slideWidth + slideMargin),
+        (nextBtn = document.querySelector("#next"));
+
+      //slide 배열
+      for (var i = 0; i < slide.length; i++) {
+        slide[i].style.left = slideWidth * i + slideMargin * i + "px";
+      }
+
+      //slide 이동 함수
+      function goToSlide(num) {
+        slides.style.left = -num * MoveSlide + "px";
+        currentIdx = num;
+      }
+
+      // 버튼을 클릭하면 슬라이드 이동시키기
+      nextBtn.addEventListener("click", function () {
+        if (currentIdx < slideCount - 3) {
+          goToSlide(currentIdx + 1);
+        } else {
+          goToSlide(0);
+        }
+      });
+      prevBtn.addEventListener("click", function () {
+        if (currentIdx > 0) {
+          goToSlide(currentIdx - 1);
+        } else {
+          goToSlide(slideCount - 3);
+        }
+      });
+    </script>
+  </body>
+</html>
