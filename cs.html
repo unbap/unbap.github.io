@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project page</title>
+</head>
+<body>
+    <h1 class="project-name"> 프로젝트 이름 </h1>
+
+    <div class="slider_wrapper">
+      <ul class="slides">
+        <li><img src="https://place-hold.it/500x500" alt="" /></li>
+        <li><img src="https://place-hold.it/500x500" alt="" /></li>
+        <li><img src="https://place-hold.it/500x500" alt="" /></li>
+        <li><img src="https://place-hold.it/500x500" alt="" /></li>
+        <li><img src="https://place-hold.it/500x500" alt="" /></li>
+        <li><img src="https://place-hold.it/500x500" alt="" /></li>
+      </ul>
+      <p class="controls">
+        <span id="prev"><i class="fas fa-chevron-left arrow"> </i></span>
+        <span id="next"><i class="fas fa-chevron-right arrow"> </i></span>
+      </p>
+    </div>
+    
+    <div class="extra-pro">
+        <div class="extra-desc">
+            <h3>추가 정보 :
+                참여자 // 링크 걸어서 해당 사람 페이지로 넘어가기  
+                제작 기간  
+                앱스토어  
+                github  
+                gmail  
+            </h3>
+        </div>
+        <div class="back-whole">
+            <h3>
+                전체 페이지로 돌아가기 버튼 
+            </h3>
+        </div>
+    </div>
+    
+    <script defer>
+        var slideWrap = document.querySelector(".slider_wrapper"),
+          slides = document.querySelector(".slides"),
+          slide = document.querySelectorAll(".slides li"),
+          currentIdx = 0;
+        (slideCount = slide.length),
+          (prevBtn = document.querySelector("#prev")),
+          (slideWidth = 300),
+          (slideMargin = 30),
+          (MoveSlide = slideWidth + slideMargin),
+          (nextBtn = document.querySelector("#next"));
+  
+        //slide 배열
+        for (var i = 0; i < slide.length; i++) {
+          slide[i].style.left = slideWidth * i + slideMargin * i + "px";
+        }
+  
+        //slide 이동 함수
+        function goToSlide(num) {
+          slides.style.left = -num * MoveSlide + "px";
+          currentIdx = num;
+        }
+  
+        // 버튼을 클릭하면 슬라이드 이동시키기
+        nextBtn.addEventListener("click", function () {
+          if (currentIdx < slideCount - 3) {
+            goToSlide(currentIdx + 1);
+          } else {
+            goToSlide(0);
+          }
+        });
+        prevBtn.addEventListener("click", function () {
+          if (currentIdx > 0) {
+            goToSlide(currentIdx - 1);
+          } else {
+            goToSlide(slideCount - 3);
+          }
+        });
+    </script>
+
+</body>
+</html>
