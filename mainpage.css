@@ -2,17 +2,40 @@
   --image-height: 100vh;
 }
 
+.menuBar{
+  background-color: rgba( 255, 255, 255, 0.2 );
+  position: fixed;
+  top : 0;
+  right : 0;
+  font-family: "arial", sans-serif;
+  font-size: 1.01rem;
+  color : white;
+  opacity: 0.8;
+  letter-spacing: 0.05rem;
+  padding-left : 100%;
+  padding-right : 2.5vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  display: flex;
+  z-index : 1;
+}
+
+/* .menuBar:hover{
+  background-color: rgba(0,0,0,0.2);
+  color : black;
+} */
+
 .part-1 .ExplainUnbap {
   text-align: center;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-top: 8vh;
-  padding-bottom: 10vh;
+  padding-top: 12vh;
+  padding-bottom: 12vh;
   margin-left: 2vw;
   margin-right: 2vw;
-  margin-bottom: 2vh;
-  margin-top: 1vh;
-  background-color: #00bfff;
+  margin-bottom: 3vh;
+  margin-top: 8vh;
+  background-color: #6EE0FF;
 }
 .part-1 .textUnbapExplain {
   font-size: 1.5rem;
@@ -72,3 +95,4 @@
   height: var(--image-height);
   /* height: 100vh; */
 }
+
