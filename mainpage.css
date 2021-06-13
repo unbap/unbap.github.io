@@ -9,21 +9,19 @@
   right : 0;
   font-family: "arial", sans-serif;
   font-size: 1.01rem;
-  color : white;
-  opacity: 0.8;
+  color : rgba(255,255,255,0.8);
   letter-spacing: 0.05rem;
   padding-left : 100%;
   padding-right : 2.5vh;
-  padding-top: 1.5vh;
+  padding-top: 1.5vh; 
   padding-bottom: 1.5vh;
   display: flex;
   z-index : 1;
 }
 
-/* .menuBar:hover{
-  background-color: rgba(0,0,0,0.2);
-  color : black;
-} */
+.menuBar:hover{
+  background-color: rgba(0,0,0);
+}
 
 .part-1 .ExplainUnbap {
   text-align: center;
