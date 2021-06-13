@@ -17,10 +17,12 @@
   padding-bottom: 1.5vh;
   display: flex;
   z-index: 1;
+  transition: background-color 200ms linear;
 }
 
-.menuBar:hover {
-  background-color: rgba(0, 0, 0);
+.menuBar.scrolled {
+  background-color: rgba(0, 0, 0) !important;
+  transition: background-color 200ms linear;
 }
 
 .part-1 .ExplainUnbap {
