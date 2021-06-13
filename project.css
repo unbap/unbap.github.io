@@ -56,8 +56,31 @@ li {
   .slides {
     transform: translateX(-215px);
   }
+  .controls #prev {
+    margin-left: -400px;
+  }
+  .controls #next {
+    margin-left: 380px;
+  }
 }
 @media only screen and (max-width: 840px) {
+  .slider_wrapper {
+    width: 300px;
+    height: 300px;
+  }
+  .slides img {
+    height: 300px;
+    width: 300px;
+  }
+  .slides {
+    transform: translateX(0px);
+  }
+  .controls #prev {
+    margin-left: -140px;
+  }
+  .controls #next {
+    margin-left: 120px;
+  }
 }
 /*********** 여기까지 슬라이드 파트 ************/
 
