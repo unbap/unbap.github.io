@@ -10,7 +10,7 @@ function scrollToPart2() {
     window.scrollTo({ top: location - menuHeight + 100, behavior: 'smooth' });
 }
 
-function scrollToPart3() {
+function scrollToPaTrt3() {
     var menuHeight = document.querySelector(".menuBar").offsetHeight;
     var location = document.querySelector(".part-3 .part-title").offsetTop;
     window.scrollTo({ top: location - menuHeight + 120, behavior: 'smooth' });

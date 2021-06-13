@@ -94,3 +94,7 @@
   /* height: 100vh; */
 }
 
+.menuBar .menu {
+  margin: auto 1em;
+}
+
