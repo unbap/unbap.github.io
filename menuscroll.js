@@ -12,6 +12,6 @@ function scrollToPart2() {
 function scrollToPart3() {
     var menuHeight = document.querySelector(".menuBar").offsetHeight;
     var location = document.querySelector(".part-3 .part-title").offsetTop;
-    window.scrollTo({ top: location - menuHeight + 120, behavior: 'smooth' });
+    window.scrollTo({ top: location - menuHeight + 100, behavior: 'smooth' });
 }
 
