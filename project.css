@@ -2,7 +2,7 @@
   /* display: none; */
 }
 
-/* 가져온 css */
+/*********** 슬라이드 파트 css *************/
 ul {
   padding: 0;
   margin: 0;
@@ -11,20 +11,20 @@ li {
   list-style: none;
 }
 .slider_wrapper {
-  width: 1560px;
+  width: 980px;
   margin: 0 auto;
   position: relative;
-  height: 500px;
+  height: 400px;
   overflow: hidden;
 }
 .slides {
   position: relative;
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   margin: 0 auto;
   transition: left 0.5s ease-in-out;
   left: 0;
-  transform: translateX(-520px);
+  transform: translateX(-320px);
 }
 .slides li {
   position: absolute;
@@ -39,15 +39,15 @@ li {
   cursor: pointer;
 }
 .controls #prev {
-  margin-left: -740px;
+  margin-left: -460px;
 }
 .controls #next {
-  margin-left: 750px;
+  margin-left: 460px;
 }
 .arrow {
   color: blueviolet;
 }
-/* 여기까지 */
+/*********** 여기까지 슬라이드 파트 ************/
 
 .lower-desc {
   max-width: 1000px;
