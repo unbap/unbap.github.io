@@ -10,8 +10,23 @@ function scrollToPart2() {
   window.scrollTo({ top: location - menuHeight + 100, behavior: "smooth" });
 }
 function scrollToPart3() {
-    var menuHeight = document.querySelector(".menuBar").offsetHeight;
-    var location = document.querySelector(".part-3 .part-title").offsetTop;
-    window.scrollTo({ top: location - menuHeight + 100, behavior: 'smooth' });
+  var menuHeight = document.querySelector(".menuBar").offsetHeight;
+  var location = document.querySelector(".part-3 .part-title").offsetTop;
+  window.scrollTo({ top: location - menuHeight + 100, behavior: "smooth" });
 }
 
+window.addEventListener("load", function () {
+  if (window.location.hash) {
+    switch (window.location.hash) {
+      case "#home":
+        scrollToPart1();
+        break;
+      case "#members":
+        scrollToPart2();
+        break;
+      case "#projects":
+        scrollToPart3();
+        break;
+    }
+  }
+});
