@@ -21,10 +21,25 @@
   width: 45%;
   height: 100%;
   border-right: 5px solid white;
-  /* overflow: hidden; */
   float: left;
   background-color: aquamarine;
-  /* margin-right: 10%; */
+}
+
+.part-2 .box2 {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin: 5vh 15vh 2vh 23vh;
+}
+
+.part-2 .box3 {
+  width: 80px;
+  height: 80px;
+  /* border-right: 5px solid white; */
+  float: left;
+  /* background-color: aquamarine; */
+  margin: 0.5vh 0.5vh 0.5vh 0.5vh;
+  border: solid 1px black;
 }
 
 .part-2 .img {
@@ -32,6 +47,22 @@
   height: 100%;
   object-fit: cover;
   overflow: hidden;
+  
+}
+
+.part-2 .img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.part-2 .img3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  filter: grayscale(80%)
 }
 
 .part-2 .name {
@@ -158,4 +189,151 @@
   -ms-transform: scale(1.8);
   -o-transform: scale(1.8);
   transform: scale(1.8);
+}
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+} */
+
+/* Slideshow container */
+.part-2 .slideshow-container {
+  width: 18vh;
+  height: 12vh;
+  /* position: relative;
+  margin: auto; */
+  object-fit: cover;
+  overflow: hidden;
+  border: solid 10px rgba(128, 128, 128, 0.5);
+  text-align:center;
+  float:left;
+  margin: 2vh 2vh 2vh 0;
+}
+.part-2 .slideshow-container .mySlides img {
+  height: 100px;
+}
+
+/* Hide the images by default */
+.part-2 .mySlides {
+  display: none;
+}
+/* 세세히 알아볼것 */
+
+/* Next & previous buttons */
+.part-2 .prev, .next {
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  color: #F8BBD0;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.part-2 .prev {
+  margin:4vh 2vh 2vh 3vh;
+}
+/* Position the "next button" to the right */
+.part-2 .next {
+  margin:0 10px 0 10px;
+  /* top: 300px; */
+  /* right: 30px; */
+  /* left:915px; */
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.part-2 .prev:hover, .next:hover {
+  background-color: rgba(128,128,128,0.8);
+}
+
+/* Caption text */
+.part-2 .text {
+  color: blue;
+  font-size: 1rem;
+  padding: 8px 12px;
+  position: absolute;
+  /* bottom: 8px;
+  width: 100%; */
+  text-align: center;
+  margin-left:30px;
+  text-decoration: underline 5px dotted;
+}
+
+/* Number text (1/3 etc) */
+.part-2 .numbertext {
+  color: red;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 15;
+  /* top이 위치 조정 */
+}
+
+/* 애니메이션 효과 && 물어볼 것  */
+/* 
+ */
+
+/*  알아볼것
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} */
+
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
+
+/* .active, .dot:hover {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+
+.part-2 .table {
+  /* border:solid 1px red;  */
+  margin:2vh 0 0 4vh; 
+  max-width: 70%
+}
+
+.part-2 .self {
+  /* border:solid 1px red;  */
+  text-align:left;  
+  font-size: 4vh;
+}
+
+.part-2 .engn {
+  color: pink; 
+  font-size: 5rem;
+}
+
+.part-2 .selfint{
+  /* border:solid 1px red; */
+  font-size: 1rem; 
+  padding:3vh 0 -2vh 3vh;
+}
+
+/* .part-2 .selfin{
+  margin-left:-2vh;
+} */
+
+.part-2 .tit{
+  /* border:solid 1px red; */
+  text-decoration:overline 5px dotted #F8BBD0; 
+  font-size:3vh;
 }
