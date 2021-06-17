@@ -28,6 +28,12 @@ li {
   left: 0;
   transform: translateX(-430px);
 }
+
+.slides img {
+  width: 400px;
+  height: 400px;
+}
+
 .slides li {
   position: absolute;
 }
@@ -114,4 +120,8 @@ li {
   clear: both;
   margin-top: 6em;
   display: none;
+}
+
+.clicktolearn {
+  cursor: pointer;
 }
