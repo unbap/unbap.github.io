@@ -12,7 +12,7 @@
   margin-right: 2vw;
   margin-bottom: 3vh;
   margin-top: 8vh;
-  background-color: #6ee0ff;
+  background-color: #8fafcc;
 }
 .part-1 .textUnbapExplain {
   font-size: 1.5rem;
@@ -33,7 +33,7 @@
   font-family: "arial", sans-serif;
   font-weight: 545;
   letter-spacing: 1.8rem;
-  font-size: 18vw;
+  font-size: 15vw;
 }
 .part-1 .main-imagex {
   position: relative;
@@ -62,9 +62,9 @@
   background-color: rgba(255, 255, 255, 0.5);
 } */
 
-/* .part-1 .unbapImg {
-  overflow: hidden;
-} */
+.part-1 .unbapImg {
+  height: 500px;
+} 
 .part-1 img {
   object-fit: cover;
   object-position: center;

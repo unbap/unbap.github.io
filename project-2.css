@@ -1,21 +1,25 @@
+.part-2 .profilelist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
 .part-2 .profile {
   overflow: hidden;
-  display: flex;
+  flex: 1;
   /* padding: 1%; */
   color: white;
   background-color: #7bc4c4;
   max-width: 535px;
+  min-width: 300px;
   max-height: 300px;
+  min-height: 300px;
   /* float: left; */
   margin: 1rem;
   /* margin: 3% 1% 1% 1%; */
 }
 
-.part-2 .profilelist {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 
 .part-2 .box {
   width: 45%;
