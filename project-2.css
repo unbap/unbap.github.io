@@ -2,7 +2,7 @@
   overflow: hidden;
   /* padding: 1%; */
   color: white;
-  background-color: #7bc4c4;
+  background-color: #7fabd0;
   max-width: 535px;
   /* max-height: 300px; */
   margin: 1rem;
@@ -89,7 +89,7 @@
 }
 
 .part-2 .list {
-  color: gray;
+  color: #43464b;
   font-size: 1rem;
 }
 
@@ -99,7 +99,7 @@
 
 /* CSS Animations */
 
-.part-2 .profile {
+.part-2 .project {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
