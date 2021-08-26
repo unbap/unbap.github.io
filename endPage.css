@@ -3,10 +3,6 @@ footer {
     background-color: #375a8b;
     padding: 50px 50px;
 }
-
-@media screen and (max-width: 500px) {
-    
-}
   
 footer .icon img {
     float: right;
