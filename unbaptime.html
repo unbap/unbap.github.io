@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>언밥시간</title>
+    <meta name="description" content="언밥시간" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+      body {
+        /* background-image: url("EDIT_UNBAP_COMETHRU.png"); */
+        background: url("EDIT_UNBAP_COMETHRU.png") no-repeat center center fixed;
+        /* background-position: bottom; */
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .container {
+        background-color: white;
+        padding: 1em;
+        max-width: 900px;
+        margin: auto;
+        text-align: center;
+        word-wrap: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>언밥 시간</h1>
+      <p>
+        언밥 시간은 HUT 표준시간 고유 번호를 만들기 위해 탄생한 2020년 9월 15일
+        00시 00분 부터의 시간을 분으로 표현하였습니다.
+      </p>
+      <h2>현재 시간: <span id="currentTime"></span></h2>
+      <h2>언밥 분: <span id="unbapTimeMinute"></span></h2>
+      <p>언밥 시간: <span id="unbapFullTime"></span></p>
+      <p><em>(언밥 시간 since 2020-09-15 15:50)</em></p>
+    </body>
+    </div>
+
+  <script>
+    window.onload = () => {
+      console.log("Document Loaded");
+
+      setInterval(() => {
+        const date = new Date();
+        const origin = new Date(2020, 09, 15);
+        document.getElementById("currentTime").textContent = date;
+        document.getElementById("unbapTimeMinute").textContent =
+          moment(date).diff(moment(origin), "minutes");
+
+          const duration =  moment.duration(moment(date).diff(moment("2020-09-15 15:50")));
+        document.getElementById("unbapFullTime").textContent = `${Math.floor(duration.asMonths())}개월 ${duration.days()}일 ${duration.hours()}시간 ${duration.minutes()}분`
+        }, 1000);
+
+      // const toUnbapTime = (date) => {
+      //   const origin = new Date(2020, 09, 15);
+      //   return Math.floor((date - origin) / 60000);
+      // };
+    };
+  </script>
+</html>
