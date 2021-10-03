@@ -1,5 +1,10 @@
 .projects {
     padding-bottom: 10rem;
+    letter-spacing: 1.2px;
+}
+
+.project .name {
+    margin-top: 15px;
 }
 
 .projects .project {
@@ -18,7 +23,7 @@
   
 .projects .moreInfo {
     margin-top: 1em;
-    line-height: 1em;
+    line-height: 1.3em;
 }
   
 .projects .project-list {
